@@ -1,5 +1,3 @@
-# Library API Service
-A company is launching a library management service. The service will be a web API layer built using .NET, with an existing prepared infrastructure. Implement two controllers: in LibrariesController, add the DELETE method, and in BooksController, implement the POST, and GET methods as per the guidelines below. Additionally, implement corresponding services for the controllers, and register these services in the Startup.cs file to enable Dependency Injection.
 
 ## Environment
 - .NET version: 6.0
@@ -49,7 +47,7 @@ The service should adhere to the following API format and response codes:
   - The HTTP response code should be 204 on success.
   - If a library with `{libraryId}` does not exist, return 404.
  
-NOTE: You need to add support for Dependency Injection for internal services (LibrariesService and BooksService) in the project Startup.cs file.
+Add support for Dependency Injection for internal services (LibrariesService and BooksService) in the project Startup.cs file.
 
 ## Sample Requests & Responses
 <details><summary>Expand to view details on sample requests and responses for each endpoint.</summary>
